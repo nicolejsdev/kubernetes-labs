@@ -52,16 +52,14 @@ Os arquivos do site e as imagens foram mantidos fora dos arquivos versionados de
 
 ## 📸 Registros do laboratório
 
-![Site rodando a partir de um pod no Kubernetes]\(docs/img/01-site-no-navegador.png)\
+📸 Registros do laboratório
 
-![Estrutura do projeto no VS Code]\(docs/img/05-estrutura-vscode.png)
+* `/home/nicole/Downloads/Captura de tela de 2026-10-20 20-38-25.jpg`
+* `/home/nicole/Downloads/Captura de tela de 2026-10-20 20-39-02.png`
+* `/home/nicole/Downloads/Captura de tela de 2026-10-20 20-39-11.png`
+* `/home/nicole/Downloads/Captura de tela de 2026-10-20 20-39-17.png`
+* `/home/nicole/Downloads/Captura de tela de 2026-10-20 20-40-13.png`
 
-![Criação do cluster, carga da imagem, apply e port-forward]\(docs/img/02-cluster-e-deploy.png)
-
-![Pod removido e recriado automaticamente]\(docs/img/03-autorrecuperacao.png)
-
-![Escalonamento de 2 para 4 réplicas e de volta para 2]\(docs/img/04-escalonamento.png)\
-\
 ## 📚 O que aprendi
 
 Esse laboratório me ajudou a entender melhor como Docker e Kubernetes trabalham juntos. Também consegui visualizar, na prática, como o Kubernetes mantém a quantidade desejada de Pods e como posso acessar uma aplicação dentro de um cluster local.

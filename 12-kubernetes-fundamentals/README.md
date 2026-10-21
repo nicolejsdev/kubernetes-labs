@@ -52,26 +52,16 @@ Os arquivos do site e as imagens foram mantidos fora dos arquivos versionados de
 
 ## 📸 Registros do laboratório
 
-### Site aberto no navegador
+![Site rodando a partir de um pod no Kubernetes]\(docs/img/01-site-no-navegador.png)\
 
-![Site Rústicos Diniz no navegador](docs/img/site-navegador.png)
+![Estrutura do projeto no VS Code]\(docs/img/05-estrutura-vscode.png)
 
-### Arquivos no VS Code
+![Criação do cluster, carga da imagem, apply e port-forward]\(docs/img/02-cluster-e-deploy.png)
 
-![Arquivos do laboratório no VS Code](docs/img/arquivos-vscode.png)
+![Pod removido e recriado automaticamente]\(docs/img/03-autorrecuperacao.png)
 
-### Cluster e aplicação em execução
-
-![Cluster Kubernetes e aplicação em execução](docs/img/cluster-kubernetes.png)
-
-### Teste de recuperação de Pod
-
-![Teste de recuperação de Pod](docs/img/recuperacao-pod.png)
-
-### Teste de escalonamento
-
-![Teste de escalonamento da aplicação](docs/img/escalonamento.png)
-
+![Escalonamento de 2 para 4 réplicas e de volta para 2]\(docs/img/04-escalonamento.png)\
+\
 ## 📚 O que aprendi
 
 Esse laboratório me ajudou a entender melhor como Docker e Kubernetes trabalham juntos. Também consegui visualizar, na prática, como o Kubernetes mantém a quantidade desejada de Pods e como posso acessar uma aplicação dentro de um cluster local.

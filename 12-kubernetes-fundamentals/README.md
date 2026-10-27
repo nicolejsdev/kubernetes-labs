@@ -19,12 +19,17 @@ Aprender como executar uma aplicação real em containers e orquestrá-la no Kub
 - acesso com `kubectl port-forward`
 - autorrecuperação e escalonamento de Pods
 
-## 🧰 Ambiente
+### 🛠️ Ambiente utilizado
 
-- Linux (<!-- ex: Ubuntu 26.04 LTS -->)
-- Docker Engine
-- Kind e `kubectl` (<!-- versões -->)
-- Nginx
+- **Sistema operacional:** Ubuntu 26.04.1 LTS
+- **Docker Engine:** 29.9.2
+- **Kind:** v0.24.0
+- **kubectl:** v1.31.14 (instalado via Snap)
+- **Kustomize:** v5.4.2
+- **Kubernetes:** v1.31.0
+- **Cluster Kind:** `estudo`
+- **Container runtime:** containerd 1.7.18
+- **Imagem base:** `nginxinc/nginx-unprivileged:1.27-alpine`
 
 ## 🏗️ Arquitetura
 
@@ -63,32 +68,6 @@ flowchart LR
 │   └── service.yaml      # exposição dos Pods
 ├── docs/img/             # evidências (screenshots)
 └── README.md
-```
-
-## 📄 Arquivos do projeto
-
-### `Dockerfile`
-
-```dockerfile
-# cole aqui o conteúdo real do seu Dockerfile
-```
-
-### `nginx.conf`
-
-```nginx
-# cole aqui o conteúdo real do seu nginx.conf
-```
-
-### `k8s/deployment.yaml`
-
-```yaml
-# cole aqui o conteúdo real do seu deployment.yaml
-```
-
-### `k8s/service.yaml`
-
-```yaml
-# cole aqui o conteúdo real do seu service.yaml
 ```
 
 ## 🛠️ Passo a passo
